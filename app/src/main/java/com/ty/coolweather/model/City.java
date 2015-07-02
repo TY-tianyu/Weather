@@ -9,6 +9,16 @@ public class City {
     private String cityCode;
     private int provinceId;
 
+    public static final String TABLE_CITY = "City";
+
+    public static final String ID = "id";
+
+    public static final String CITY_NAME = "city_name";
+
+    public static final String CITY_CODE = "city_code";
+
+    public static final String PROVINCE_ID = "province_id";
+
     public int getId() {
         return id;
     }
