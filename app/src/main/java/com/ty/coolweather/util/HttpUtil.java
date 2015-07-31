@@ -44,12 +44,10 @@ public class HttpUtil {
                     if (null != listener) {
                         listener.onError(e);
                     }
-
                 } finally {
                     if (conn != null) {
                         conn.disconnect();
                     }
-
                 }
             }
         }).start();
